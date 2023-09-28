@@ -4,7 +4,7 @@ import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 const projects = [
   {
     name: "quickcast",
-    description: "boost your efficiency with hotkeys and ai",
+    description: "get instant access to chatgpt with a single shortcut key",
     link: "https://quickcast.lol/",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     name: "is your shot broke",
-    description: "check if your basketball shot is broken",
+    description: "check if your basketball shooting form is broken",
     link: "https://huggingface.co/spaces/patrickpc/isyourshotbroke",
   },
   {
@@ -50,8 +50,8 @@ export default function Home() {
             className="rounded-full select-none object-cover"
             src="/killua.jpeg"
             alt="Killua"
-            width={75}
-            height={75}
+            width={70}
+            height={70}
             priority
           />
         </section>

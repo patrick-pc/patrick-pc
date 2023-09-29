@@ -9,8 +9,7 @@ const projects = [
   },
   {
     name: "chatgenie",
-    description:
-      "text and chat with any character, dead or alive, real or made up",
+    description: "chat with any character, dead or alive, real or made up",
     link: "https://chatgenie.xyz/",
   },
   {
@@ -26,7 +25,7 @@ const projects = [
   },
   {
     name: "spidersona",
-    description: "turn your portrait into a spider-man character",
+    description: "turn your selfie into a spider-man character",
     link: "https://spidersona.vercel.app/",
   },
   {

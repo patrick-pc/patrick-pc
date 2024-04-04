@@ -43,11 +43,7 @@ const projects = [
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-start px-6 py-12">
-      <p className="max-w-xl pt-32">
-        i am new to the hardware space. i do not have a previous hardware
-        project to share but i know how to solve a problem and make things work.
-      </p>
-      {/* <div className="w-full max-w-xl flex flex-col gap-8">
+      <div className="w-full max-w-xl flex flex-col gap-8">
         <section className="">
           <Image
             className="rounded-full select-none object-cover"
@@ -91,7 +87,7 @@ export default function Home() {
             </a>
           ))}
         </section>
-      </div> */}
+      </div>
     </main>
   );
 }

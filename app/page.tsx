@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-start px-6 pt-12 pb-24">
       <div className="w-full max-w-xl flex flex-col gap-8">
-        <section className="">
+        {/* <section className="">
           <Image
             className="rounded-full select-none object-cover shrink-0"
             src="/pfp.png"
@@ -64,12 +64,12 @@ export default function Home() {
             height={70}
             priority
           />
-        </section>
+        </section> */}
 
         <section className="flex justify-between items-center">
           <div className="flex flex-col gap-1">
             <h1 className="text-lg font-medium">patrick pascual</h1>
-            <p className="text-sm text-[#71717A]">lvl 27</p>
+            {/* <p className="text-sm text-[#71717A]">lvl 27</p> */}
           </div>
 
           <div className="flex items-center justify-center gap-4 text-xl">
@@ -92,7 +92,7 @@ export default function Home() {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="font-mono text-lg tracking-tighter">projects</h2>
+          <h2 className="font-mono tracking-tighter">projects</h2>
 
           {projects.map((project, i) => (
             <a

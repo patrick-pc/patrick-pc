@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 const projects = [
   {
     name: "thoreo",
-    description: "ai marketing agent",
+    description: "ai learning companion",
     link: "https://thoreo.com/",
   },
   {
